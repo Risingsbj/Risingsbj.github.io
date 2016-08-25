@@ -1,2 +1,2 @@
 # Risingsbj.github.io
-My first repository on GitHub
+我的简历
