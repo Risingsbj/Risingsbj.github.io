@@ -1,0 +1,138 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body {
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    font-size: 1.1em;
+}
+ul{
+	list-style-type: none;
+}
+a {
+    color: #008a75;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover { color:#9f3;}
+.section {
+    background-color: #22c3aa;
+    color: #eef3f0;
+    padding: 50px;
+    transition: 0.5s;
+}
+.center{
+    text-align: center;
+}
+.section.leaving {
+    background-color: #9f3;
+}
+#myMenu { position: absolute;right: 60px;top: 20px; z-index: 100;font-size: 0.8em }
+#myMenu li{display: inline-block;border-radius: 5px;padding: 2px 8px;color: #008a75;}
+#avatar {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #aee2d9;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+#title{
+	margin: 0.25em 0 0 0;
+}
+h1 {
+    text-shadow: 1px 2px #008a75,2px 4px #aee2d9;
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom:0.5em;
+}
+.subtitle {
+    margin: 1em 0 0.25em 0;
+    color: #aee2d9;
+}
+p {
+	color: #aee2d9;
+    font-size: 1.1em;
+    margin: 0.5em 0;
+}
+.skill{
+	width: 60%;
+	margin: 1em auto;
+}
+.skill-list{
+	margin-bottom:1em;
+}
+.skill1{
+	width: 100%;
+}
+.skill_1{
+    color: #aee2d9;
+    background-color: #096254;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    overflow: hidden;
+    border-left: 3px solid #3498db;
+    opacity: 1;
+}
+.skill2{
+	width: 90%;
+}
+.skill_2{
+    color: #aee2d9;
+    background-color: #096254;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    overflow: hidden;
+    border-left: 3px solid #3498db;
+    opacity: 0.7;
+}
+.skill3{
+	width: 80%;
+}
+.skill4{
+	width: 60%;
+}
+.section4 p{
+	transform:scale(.1);
+	transition-duration:.4s;
+	transition-delay:.3s;
+}
+.section4.active p{
+	transform:scale(1);
+}
+.section5 h1 {
+    transition: 2s;
+    margin-bottom: 0.5em;
+    position: relative;
+    opacity: 0;
+    top: -200px;
+}
+.section5.active h1 {
+    opacity: 1;
+    top: 0px;
+}
+.section5 p {
+    transition: 2s;
+    position: relative;
+    opacity: 0;
+    top: -200px;
+}
+.section5.active p {
+    opacity: 1;
+    top: 0px;
+}
+.section5 p a {
+    transition: 2s;
+    position: relative;
+    opacity: 0;
+    top: -200px;
+}
+.section5.active a {
+    opacity: 1;
+    top: 0px;
+}
